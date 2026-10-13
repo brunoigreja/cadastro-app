@@ -84,11 +84,11 @@ export default function App() {
             <Text style={styles.buttonText}>Adicionar</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button} onPress={handleToggle}>
-            <Text style={styles.buttonText}>{showForm ? "Esconder formulário" : "Mostrar formulário"}</Text>
-          </TouchableOpacity>
         </View>
       )}
+      <TouchableOpacity style={styles.button} onPress={handleToggle}>
+            <Text style={styles.buttonText}>{showForm ? "Esconder formulário" : "Mostrar formulário"}</Text>
+          </TouchableOpacity>
     </View>
   );
 }
